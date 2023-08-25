@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <form action="#">
+        <caption>Travel Reservation Form</caption>
+        <br>
+        <h4>* denotes mandatory</h4>
+        <label for="fullname" name="fullname">Full name*</label>
+        <br>
+        <input type="text" name="fullname" placeholder="FirstName LastName" required>
+        <br>
+        <label  name="email">Email address*</label>
+        <br>
+        <input type="email" name="email" placeholder="EMAIL-ADDRESS" required>
+        <br>
+        <label  name="email">Select Tour Package*</label>
+        <br>
+        <select name="tour-package" required>
+            <option value="Goa" selected>Goa</option>
+            <option value="Pune" >Pune</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Chennai" >Chennai</option>
+        </select>
+        <br>
+        <label  name="arrival">Arrival date*</label>
+        <br>
+        <input type="date" name="arrival" required>
+        <br>
+        <label  name="no-of-persons">Number of persons*</label>
+        <br>
+        <input type="number" name="no-of-persons" placeholder="UNKNOWN_TYPE" required>
+        <br>
+       <label name="want-to-avail" >What would you want to avail*</label>
+       <br>
+       Boarding<input type="checkbox" name="want-to-avail" value="Boarding"><br>
+       Fooding<input type="checkbox" name="want-to-avail" value="Fooding"><br>
+       Sight Seeing<input type="checkbox" name="want-to-avail" value="Sight Seeing"><br>
+       
+       <label  name="Discount-Coupon">Discount Coupon code</label>
+        <br>
+        <input type="text" name="Discount-Coupon" placeholder="UNKNOWN_TYPE" required>
+        <br>
+        <label  name="T&C">Terms and conditions*</label>
+        <br>
+        <input type="radio" name="T&C" value="I agree" >I agree
+        <input type="radio" name="T&C" value="I disagree" >I disagree
+        <br>
+        <button type="submit"> Complete reservation</button>
+    </form>
+    
+</body>
+</html>
