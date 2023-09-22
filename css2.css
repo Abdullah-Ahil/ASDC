@@ -1,0 +1,134 @@
+*
+{
+    background-color: rgb(247, 244, 240);
+    font-family: 'poppins',sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+  
+}
+.def1 h2{
+   margin-left: 20px;
+   margin-top: 20px;
+}
+.def1 p{
+   margin-left: 20px;
+   text-align: justify;
+   margin-right: 20px;
+   margin-top: 20px;
+}
+
+h1{
+    color: goldenrod;
+    text-align: center;
+ }
+ p{
+    font-size: larger;
+ }
+ .main
+ {
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    position:absolute;
+    justify-content: center;
+    line-height: none;
+    letter-spacing: 2px;
+    overflow: hidden;
+ }
+
+ #samsung{
+    background-color: rgb(223, 49, 49);
+    margin: 20px;
+ }
+ #vivo{
+    background-color: teal;
+    margin: 20px;
+
+
+ }
+ #oppo{
+    background-color: steelblue;
+    margin: 20px;
+ }
+
+/* specificity concept */
+ div{
+
+    padding: 20px;
+    background-color: orchid;
+    text-align: center;
+ }
+
+ .apple{
+    background-color: blue !important;
+    
+    margin: 20px;
+ }
+ 
+ #apple{
+    background-color: cornflowerblue;
+ }
+
+
+ #samsung h1:hover{
+    color: thistle;
+    cursor: pointer;
+ }
+ #samsung h1:active{
+    background-color: teal;
+ }
+
+ #apple h1:hover{
+    color: thistle;
+    cursor: pointer;
+ }
+ #apple h1:active{
+    background-color:  teal;
+ }
+
+ #vivo h1:hover{
+    color: thistle;
+    cursor: pointer;
+ }
+ #vivo h1:active{
+    background-color:  teal;
+ }
+
+ #oppo h1:hover{
+    color: thistle;
+    cursor: pointer;
+ }
+ #oppo h1:active{
+    background-color: teal;
+ }
+
+
+ p::before{
+    content: "Starting  ";
+    font-size: small;
+
+ }
+ p::first-letter{
+   font-size: large;
+ }
+ p::after{
+    content: "ending ";
+    font-size: small;
+
+ }
+.btns{
+   width: 100px;
+   height: 20px;
+   justify-content: center;
+   cursor: pointer;
+}
+
+#thanks{
+   margin-top: 400px;
+   color: goldenrod;
+}
+h2{
+   color: goldenrod;
+}
