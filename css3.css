@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.container{
+    height: 700px;
+    width: 700px;
+    background-color: aqua;
+
+    margin-top: 50px;
+   margin: 100px;
+   margin-left: 500px;
+   padding: 50px;
+   display: flex;
+ opacity: 0.90;
+}
+.internal_container{
+    margin-top: 300px;
+    display: flex;
+}
+
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(235, 230, 67);
+    border: 1px solid black;
+    margin: 10px;
+    margin-left: 50px;
+
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(205, 50, 197,0.7); border: 1px solid black;  margin: 10px;
+}
+.box3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(50, 205, 86); border: 1px solid black;  margin: 10px;
+}
+.box4{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(205, 73, 50); border: 1px solid black;  margin: 10px;
+}
+
+.box5{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(50, 94, 205); border: 1px solid black;  margin: 10px;
+}

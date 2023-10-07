@@ -1,0 +1,74 @@
+A. Below are the different types of lists available in HTML.
+
+1.Unorder List (<ul>) :Un-ordered list is type of list in HTML in which Every list item (<li>)
+will be initialized with bullet points.
+
+2..Order List (<ol>) :Order list is type of list in HTML in which Every list item (<li>)
+will be initialized with alphanumerical values like(1-9,A-Z,a-z and roman numbers).
+
+3.Define List (<dl>) :Define list is type of list in HTML in which Every list item (<dt>,<dd>)
+will be presented as a term and its defination.
+
+
+B.Below are variouse Purposes of using Class Selector in HTML 
+
+1.To give the properties to more than 1 element by using a single class name.
+2.to reuse the properties to a given class.
+3.to individually call a an element.
+
+
+
+A.
+ID-selector:
+it is used when we want to give a specific    element  a unique name to give properties.
+it will be unique and cannot be given to more than 1 element .
+it has the most value in CSS-specificity.
+
+Class-selector:
+it is used when we want  to give a specific properties to more than  1 element which will be going to get same properties.
+it will not be unique and can be given to more than 1 element .
+it has the most value in CSS-specificity after Id-selector.
+ 
+
+B.HTML structure:
+html structure is divided into 2 parts (head and body) and the root element for both is <html>:
+ 
+Head: the head part contains the various links  related to web page like CSS files, fonts, javascript file ,icons etc.
+And it contains the  title and meta tags which are used for SEO(Search Engine Optimization) and  Marketing purpose.
+
+Body :The body part contains everything visible on a website .the body part acts as an container and contains the various content which will be given as collection of elements.
+the header ,main content  ,images ,links  ,semantic elements,headings and paragraphs,javascript file, divs etc are the part of body tag.
+
+
+
+
+A. below are the various formating tags used in html:
+
+1.Strong : <strong> is denoted like this and used to bold a text to highlight to display that it is important. 
+
+2. Italic:<i> is denoted like this and used to change the text font into italic.
+
+3.Bold : <b> is denoted like this and used to bold a text to just highlight it .
+
+4. Emphasiz:<em> is denoted like this and used to change the text font to italic like <i> tag.
+
+5.Superscript:<sup>used to write a superscript .max used in chemistry and maths.
+
+6.Subscript:<sub>used to write a subscript .max used in chemistry and maths.
+
+7.Delete:<del>used to show a deleted text.
+
+8.Strike:<s>used to show a striked text.
+
+9.undereline:<u> used to underline a text.
+
+10.mark:<mark> used to mark a text to highlight a text .default color is yellow.
+
+
+B. significance of  <header> and <h1>:
+
+Semantic elements are usually used to create a  meaning full  program to understand it clearly and it is also help full for SEO purpose.
+
+1.Header<header>:header is a new element introduced in html5 .it is used to declare a part as header section .in header section we can find navbar ,logo images ,login /signup buttons etc.we can get to know that how many pages are there in a website.
+
+2.H1<h1>:it is a heading element used to specify the most important heading or text of our website.we have h1,h2,h3,h4,h5,h6 by using which we can specify the importance of a heading.
