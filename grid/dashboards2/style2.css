@@ -1,22 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+;
 body{
     font-family: 'Inter', sans-serif;
-    font-weight: 500;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
 }
 .conatiner{
     display: grid;
-    /* grid-template-columns: 50px 100px 100px 100px 100px 100px 100px 100px 100px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     grid-template-columns: 80px repeat(7,100px);
-    /* grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px; */
-    grid-template-rows: repeat(11,60px);
-    /* grid-template-areas:"st0 st1 st1 st2 st3 st4 st5 st6 st7"
-                            "st8 st9 st9 st10"; */
+    grid-template-rows: repeat(11,50px);
     background-color: antiquewhite;
     gap: 6px;
     width: 830px;
-    height: 800px;
+    height: 620px;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 10px;
 }
 .item{
     border-radius: 10px;

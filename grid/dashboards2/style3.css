@@ -6,14 +6,11 @@ body{
     display: grid;
     grid-template-rows: 100px 1fr 100px;
     grid-template-columns: 300px 1fr;
-    /* background-color: #2D2F3B; */
-    /* background: rgb(228,112,177);
-    background: linear-gradient(235deg, rgba(228,112,177,1) 0%, rgba(64,145,224,1) 35%, rgba(0,212,255,1) 100%); */
     width: 60vw;
     height: 600px;
-    gap: 8px;
+    gap: 10 px;
     margin: auto;
-    margin-top: 90px;
+    margin-top: 40px;
 }
 .item{
     border-radius: 5px;
